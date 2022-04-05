@@ -29,7 +29,7 @@ export default class Todo extends Component {
     
         const description = this.state.description
         console.log(description)
-        axios.post(URL, { description })
+        axios.post(URL, { description }) 
         .then(resp => console.log('Funcionou!'))
     }
 
